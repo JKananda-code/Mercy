@@ -8,14 +8,14 @@ export function Header() {
   const count = cart.items.reduce((sum, i) => sum + i.quantity, 0);
 
   return (
-    <header className="border-b bg-white/80 backdrop-blur">
+    <header className="border-b bg-cyan-500/80 backdrop-blur">
       <div className="mx-auto max-w-6xl flex justify-between items-center px-4 py-4">
         <Link href="/" className="font-display text-xl text-mbb-primary">
           Mercy Beauty Boutique
         </Link>
-git
         <nav className="flex items-center gap-6">
-          <Link href="/shop">Shop</Link>
+          <Link href="/about" className="hover:underline">About</Link>
+          <Link href="/shop" className="hover:underline">Shop</Link>
           <Link href="/salon" className="hover:underline">Salon</Link>
           <Link href="/salon/trending" className="hover:underline">Trending</Link>
 
