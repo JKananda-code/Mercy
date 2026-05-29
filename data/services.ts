@@ -8,8 +8,8 @@ export const services: Service[] = [
     name: 'Knotless Braids - Medium',
     description: 'Lightweight, natural-looking braids with a clean finish.',
     category: 'braids',
-    durationMinutes: 240,
-    startingPrice: 4500,
+    durationMinutes: 120,
+    startingPrice: 1500,
   },
   // more...
 ];

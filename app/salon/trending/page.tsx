@@ -15,6 +15,10 @@ function TrendingStyles() {
         {src: '/salon/dummy10.jpg', alt: 'Trending Style 10' },
         {src: '/salon/dummy11.jpg', alt: 'Trending Style 11' },
         {src: '/salon/dummy12.jpg', alt: 'Trending Style 12' },
+        {src: '/salon/dummy13.jpg', alt: 'Trending Style 13' },
+        {src: '/salon/dummy14.jpg', alt: 'Trending Style 14' },
+        {src: '/salon/dummy15.jpg', alt: 'Trending Style 15' },
+        {src: '/salon/dummy16.jpg', alt: 'Trending Style 16' },
         ];
   return (
     <div className="px-4 py-8">

@@ -22,7 +22,7 @@ const AboutPage = () => {
       <div className="bg-white p-6 rounded-lg shadow-md text-gray-700 max-w-2xl mx-auto">
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Our Story</h2>
         <p className="mb-4">
-          Mercy Beauty Boutique isstarting with a vision to create a haven where beauty and self-care intertwine. We believe that everyone deserves to feel confident and beautiful, inside and out. Our boutique offers a carefully curated selection of high-quality beauty products, alongside a luxurious salon experience.
+          Mercy Beauty Boutique is starting with a vision to create a haven where beauty and self-care intertwine. We believe that everyone deserves to feel confident and beautiful, inside and out. Our boutique offers a carefully curated selection of high-quality beauty products, alongside a luxurious salon experience.
         </p>
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Our Mission</h2>
         <p className="mb-4">
@@ -37,11 +37,12 @@ const AboutPage = () => {
         </ul>
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Acknowledgements</h2>
         <p className="mb-4">
-          Mercy acknowledges the support and dedication of Mama Alice as her Trainer and the rest of the teaam for being such good company in her first month of training.
-          Special thanks to Mama Alice, for providing this opportunity for Training and to everyone else in the team including MaryAnne, Pauline and the incredible Shi!.</p>
+          Mercy acknowledges the support and dedication of Mama Alice as her Trainer and the rest of the team
+          for being such good company in her first month of training. She cannot believe she has done so much
+          within a matter of 25 days. Special thanks to Mama Alice, for providing this opportunity for Training
+          and to everyone else in the team including MaryAnne, Pauline, Lucy and the incredible Shi !!.</p>
       </div>
     </div>
   );
 };
-
 export default AboutPage;
