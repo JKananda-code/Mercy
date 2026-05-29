@@ -13,9 +13,9 @@ const AboutPage = () => {
         width={300}   
       />
 </div>
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">About Mercy Beauty Boutique</h1>
+      <h1 className="text-4xl font-bold text-center text-red-700 mb-6">About Mercy Beauty Boutique</h1>
      
-<p className="text-xl text-center text-gray-600 mb-8">
+<p className="text-xl text-center text-pink-600 mb-8">
         Our passion is to bring out the best in customers.
       </p>
 
