@@ -10,7 +10,7 @@ export function Header() {
   return (
     <header className="border-b bg-cyan-500/80 backdrop-blur">
       <div className="mx-auto max-w-6xl flex justify-between items-center px-4 py-4">
-        <Link href="/" className="font-display text-xl text-mbb-primary">
+        <Link href="/" className="font-display text-xl text-pink-500 hover:text-darkblue transition">
           Mercy Beauty Boutique
         </Link>
         <nav className="flex items-center gap-6">
@@ -22,7 +22,7 @@ export function Header() {
           <Link href="/cart" className="relative">
             <span>Cart</span>
             {count > 0 && (
-              <span className="absolute -top-2 -right-3 bg-mbb-primary text-white text-xs rounded-full px-2 py-0.5">
+              <span className="absolute -top-2 -right-3 bg-mbb-gold text-white text-xs rounded-full px-2 py-0.5">
                 {count}
               </span>
             )}

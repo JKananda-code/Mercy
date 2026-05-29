@@ -9,8 +9,9 @@ const AboutPage = () => {
         <Image
         src="/mercybb.jpg"
         alt="MercyBB Logo"
+        style={{width: '100%', height: 'auto'}}
         height={500}  
-        width={300}   
+        width={500}   
       />
 </div>
       <h1 className="text-4xl font-bold text-center text-red-700 mb-6">About Mercy Beauty Boutique</h1>
