@@ -19,7 +19,7 @@ export default function HomePage({products}: {products: Product[]}) {
             <h1 className="mt-3 font-display text-4xl md:text-5xl">
               Beauty that feels <span className="text-mbb-primary">effortless</span>.
             </h1>
-            <p className="mt-4 text-pink-700">
+            <p className="mt-4 text-red-700">
               Discover curated cosmetics and book elegant hairstyles with our experienced stylists.
             </p>
             <div className="mt-6 flex gap-4">
