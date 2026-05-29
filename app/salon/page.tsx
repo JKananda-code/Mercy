@@ -4,8 +4,8 @@ import React from 'react';
 export default function SalonPage() {
   return (
     <div className="container mx-auto p-8">
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">Our Salon Services</h1>
-      <p className="text-xl text-center text-gray-600 mb-8">
+      <h1 className="text-4xl font-bold text-center text-red-700 mb-6">Our Salon Services</h1>
+      <p className="text-xl text-center text-pink-600 mb-8">
         Transform your look with our expert hair stylists and luxurious treatments.
       </p>
 
@@ -46,7 +46,7 @@ export default function SalonPage() {
           </button>
         </div>
       </div>
-      <p className="text-center text-gray-500 mt-8">Explore full service menu and stylist portfolios soon!</p>
+      <p className="text-center text-pink-500 mt-8">Explore full service menu and stylist portfolios soon!</p>
     </div>
   );
 };
