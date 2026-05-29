@@ -7,10 +7,10 @@ export default function CartPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
-      <h1 className="font-display text-3xl">Your Cart</h1>
+      <h1 className="font-display text-3xl text-red-700">Your Cart</h1>
 
       {cart.items.length === 0 && (
-        <p className="mt-4 text-gray-600">Your cart is empty.</p>
+        <p className="mt-4 text-pink-600">Your cart is empty.</p>
       )}
 
       <div className="mt-6 space-y-4">
@@ -21,7 +21,7 @@ export default function CartPage() {
           >
             <div>
               <p className="font-semibold">{item.name}</p>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-pink-600">
                 {item.quantity} × KES {item.price.toLocaleString()}
               </p>
             </div>
