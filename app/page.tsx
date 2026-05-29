@@ -1,11 +1,11 @@
 // app/page.tsx
 import Link from 'next/link';
-import { products } from '@/data/products';
 import { services } from '@/data/services';
+import { Product } from './types/product';
 
-export default function HomePage() {
-  const featuredProducts = products.slice(0, 4);
-  const featuredServices = services.slice(0, 3);
+export default function HomePage({products}: {products: Product[]}) {
+  const featuredProducts = products?.slice(0,4)?? [];
+  const featuredServices = services?.slice(0,3)?? [];
 
   return (
     <div>

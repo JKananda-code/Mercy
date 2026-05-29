@@ -13,7 +13,7 @@ export function Header() {
         <Link href="/" className="font-display text-xl text-mbb-primary">
           Mercy Beauty Boutique
         </Link>
-
+git
         <nav className="flex items-center gap-6">
           <Link href="/shop">Shop</Link>
           <Link href="/salon" className="hover:underline">Salon</Link>

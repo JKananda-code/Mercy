@@ -7,7 +7,11 @@ function TrendingStyles() {
         { src: '/salon/image2.jpeg', alt: 'Trending Style 2' },
         { src: '/salon/image3.jpeg', alt: 'Trending Style 3' },
         { src: '/salon/image4.jpeg', alt: 'Trending Style 4' },
-    ];
+        {src: '/salon/dummy1.jpg', alt: 'Trending Style 5' },
+        {src: '/salon/dummy2.jpg', alt: 'Trending Style 6' },  
+        {src: '/salon/dummy3.jpg', alt: 'Trending Style 7' },   
+        {src: '/salon/dummy4.jpg', alt: 'Trending Style 8' },     
+        ];
   return (
     <div className="px-4 py-8">
       <h1 className="text-2xl font-semibold text-gray-800 mb-6">Trending Styles</h1>
