@@ -46,7 +46,7 @@ export default function HomePage({products}: {products: Product[]}) {
       {/* Featured products */}
       <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="flex items-center justify-between">
-          <h2 className="font-display text-2xl">Featured products</h2>
+          <h2 className="font-display text-2xl text-red-700">Featured products</h2>
           <Link href="/shop" className="text-sm text-mbb-primary hover:underline">
             View all
           </Link>
@@ -73,7 +73,7 @@ export default function HomePage({products}: {products: Product[]}) {
       <section className="bg-white">
         <div className="mx-auto max-w-6xl px-4 py-12">
           <div className="flex items-center justify-between">
-            <h2 className="font-display text-2xl text-red-">Salon services</h2>
+            <h2 className="font-display text-2xl text-red-700">Salon services</h2>
             <Link href="/salon" className="text-sm text-mbb-primary hover:underline">
               View all
             </Link>
