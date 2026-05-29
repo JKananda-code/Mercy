@@ -37,9 +37,9 @@ const AboutPage = () => {
         </ul>
         <h2 className="text-2xl font-semibold text-gray-800 mb-3">Acknowledgements</h2>
         <p className="mb-4">
-          Mercy acknowledges the support and dedication of Mama Alice as her Trainer and the rest of the team
+          Mercy acknowledges the support and dedication of Aisha as her Trainer and the rest of the team
           for being such good company in her first month of training. She cannot believe she has done so much
-          within a matter of 25 days. Special thanks to Mama Alice, for providing this opportunity for Training
+          within a matter of 25 days. Special thanks to Aisha, for providing this opportunity for Training
           and to everyone else in the team including MaryAnne, Pauline, Lucy and the incredible Shi !!.</p>
       </div>
     </div>
