@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-mbb-light to-white">
+      <section className="bg-linear-to-br from-mbb-light to-white">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-16 md:flex-row md:items-center">
           <div className="md:w-1/2">
             <p className="text-xs uppercase tracking-[0.2em] text-mbb-primary">

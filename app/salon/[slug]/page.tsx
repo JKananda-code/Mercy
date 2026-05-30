@@ -25,12 +25,8 @@ export default function ServicePage({ params }: Props) {
 
       {/* Booking Form */}
       <form className="mt-6 grid gap-4 rounded-2xl border border-pink-100 bg-white p-6">
-        {/* Date */}
         <div>
-          <label
-            htmlFor="date"
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor="date" className="block text-sm font-medium text-gray-700">
             Preferred date
           </label>
           <input
@@ -40,12 +36,8 @@ export default function ServicePage({ params }: Props) {
           />
         </div>
 
-        {/* Time */}
         <div>
-          <label
-            htmlFor="time"
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor="time" className="block text-sm font-medium text-gray-700">
             Preferred time
           </label>
           <input
@@ -55,12 +47,8 @@ export default function ServicePage({ params }: Props) {
           />
         </div>
 
-        {/* Name */}
         <div>
-          <label
-            htmlFor="name"
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
             Your name
           </label>
           <input
@@ -71,12 +59,8 @@ export default function ServicePage({ params }: Props) {
           />
         </div>
 
-        {/* Phone */}
         <div>
-          <label
-            htmlFor="phone"
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
             Phone / WhatsApp
           </label>
           <input
@@ -87,7 +71,6 @@ export default function ServicePage({ params }: Props) {
           />
         </div>
 
-        {/* Submit */}
         <button
           type="submit"
           className="mt-2 w-full rounded-full bg-mbb-primary px-6 py-3 text-sm font-semibold text-white hover:bg-mbb-dark"
