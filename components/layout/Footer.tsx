@@ -24,7 +24,7 @@ export function Footer() {
           <div>
             <p className="font-semibold text-gray-800">Connect</p>
             <div className="mt-2 flex flex-col gap-1">
-              
+             
               <p>Juja, Kiambu</p>
             </div>
           </div>

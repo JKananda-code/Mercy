@@ -1,11 +1,11 @@
 // app/page.tsx
 import Link from 'next/link';
+import { products } from '@/data/products';
 import { services } from '@/data/services';
-import { Product } from './types/product';
 
-export default function HomePage({products}: {products: Product[]}) {
-  const featuredProducts = products?.slice(0,4)?? [];
-  const featuredServices = services?.slice(0,3)?? [];
+export default function HomePage() {
+  const featuredProducts = products.slice(0, 4);
+  const featuredServices = services.slice(0, 3);
 
   return (
     <div>
@@ -19,7 +19,7 @@ export default function HomePage({products}: {products: Product[]}) {
             <h1 className="mt-3 font-display text-4xl md:text-5xl">
               Beauty that feels <span className="text-mbb-primary">effortless</span>.
             </h1>
-            <p className="mt-4 text-red-700">
+            <p className="mt-4 text-gray-700">
               Discover curated cosmetics and book elegant hairstyles with our experienced stylists.
             </p>
             <div className="mt-6 flex gap-4">
@@ -46,7 +46,7 @@ export default function HomePage({products}: {products: Product[]}) {
       {/* Featured products */}
       <section className="mx-auto max-w-6xl px-4 py-12">
         <div className="flex items-center justify-between">
-          <h2 className="font-display text-2xl text-red-700">Featured products</h2>
+          <h2 className="font-display text-2xl">Featured products</h2>
           <Link href="/shop" className="text-sm text-mbb-primary hover:underline">
             View all
           </Link>
@@ -73,7 +73,7 @@ export default function HomePage({products}: {products: Product[]}) {
       <section className="bg-white">
         <div className="mx-auto max-w-6xl px-4 py-12">
           <div className="flex items-center justify-between">
-            <h2 className="font-display text-2xl text-red-700">Salon services</h2>
+            <h2 className="font-display text-2xl">Salon services</h2>
             <Link href="/salon" className="text-sm text-mbb-primary hover:underline">
               View all
             </Link>
