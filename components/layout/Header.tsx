@@ -10,7 +10,8 @@ export function Header() {
   return (
     <header className="border-b bg-cyan-500/80 backdrop-blur">
       <div className="mx-auto max-w-6xl flex justify-between items-center px-4 py-4">
-        <Link href="/" className="font-display text-xl text-pink-500 hover:text-darkblue transition">
+        <Link href="/" className="font-display text-xl text-pink-500
+         hover:text-darkblue transition">
           Mercy Beauty Boutique
         </Link>
         <nav className="flex items-center gap-6">
